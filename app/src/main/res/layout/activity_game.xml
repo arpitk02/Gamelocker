@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Game"
+    android:background="@drawable/background_color">
+
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="383dp"
+        android:layout_height="43dp"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="72dp"
+        android:textSize="20dp"
+        android:text="Guess IT and Unlock IT :)" />
+
+    <TextView
+        android:id="@+id/tv_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_info"
+        android:layout_marginTop="107dp"
+        android:gravity="center"
+        android:text=""
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/et_guess"
+        android:layout_width="399dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_word"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:hint="word"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <Button
+        android:id="@+id/b_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_guess"
+        android:layout_marginTop="44dp"
+        android:text="CHECK" />
+
+
+
+</RelativeLayout>

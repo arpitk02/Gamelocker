@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background_color">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="396dp"
+        android:layout_below="@+id/t"
+        android:src="@drawable/lock"
+
+        />
+
+    <TextView
+        android:id="@+id/t"
+        android:layout_width="379dp"
+        android:layout_height="114dp"
+        android:clickable="true"
+        android:cursorVisible="true"
+        android:text="CRYPTOGRAPHY PROJECT GAMELOCKER!"
+        android:textColor="#A80A0A"
+        android:textSize="30dp" />
+
+
+</RelativeLayout>
